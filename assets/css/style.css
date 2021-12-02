@@ -23,13 +23,21 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 35px;
-    position: sticky;
     top: 0;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
 }
+header nav ul {
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    
+} 
+header nav ul li a {
+    padding: 10px 15px;
+}  
 .container {
     width: 50%;
     margin: 0 auto;

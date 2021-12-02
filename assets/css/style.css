@@ -49,10 +49,12 @@ h2 {
     width: 1000px;
     clip-path: circle();
 }
-p{ 
+p { 
     color: navy;
     font-style: italic;
     font-size: 20px;
+    text-align: left;
+    padding: 20px 80px 20px 15px;
 
 }
 .btn {
@@ -62,4 +64,7 @@ p{
     background-color: grey;
     border-radius: 10px;
     text-decoration: none;
+}
+.nav {
+    display: inline-block;
 }

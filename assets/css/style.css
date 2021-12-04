@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 html {
 font-size: 16px;
+
 
 }
 body {
@@ -46,24 +48,41 @@ header nav ul li a {
 
 }
 
-h2 {
+.intro h2 {
+    font-size: 40px;
     font-style: italic;
     color: navy;
     letter-spacing: 2px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
 
 }
 .image {
-    width: 1000px;
-    clip-path: circle();
+    width: 800px;
+    
+
+    clip-path: circle(220px);
 }
 p { 
     color: navy;
     font-style: italic;
     font-size: 20px;
-    text-align: left;
+    text-align: right;
     padding: 20px 80px 20px 15px;
 
+}
+
+.nav {
+    display: inline-block;
+}
+.office {
+    display: flex;
+    width: 400px;
+    clip-path: circle(200px);
+    margin-left: 10px;
+    height: 450px;
+    padding: 0;
+    
 }
 .btn {
     display: inline-block;
@@ -73,6 +92,18 @@ p {
     border-radius: 10px;
     text-decoration: none;
 }
-.nav {
-    display: inline-block;
+
+.work h2 {
+   font-size: 50px;
+   padding-top: 30px;
+   font-style: italic;
+   color: navy;
+   letter-spacing: 2px;
+   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.work p {
+    display: flex;
+}
+.work > p {
+    flex-basis: 20%;
 }

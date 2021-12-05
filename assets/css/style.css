@@ -12,8 +12,9 @@ font-size: 16px;
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background: url("/assets/images/Web\ Background.jpeg");
     background-position: 0 1000px;
+    
+
 
 }
 header {
@@ -101,8 +102,12 @@ p {
    letter-spacing: 2px;
    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.work p {
+.text p {
     display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75%;
 }
 .work > p {
     flex-basis: 20%;
